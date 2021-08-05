@@ -9,7 +9,7 @@
 - 'tags' query parameter - this parameter is required in URL as it defines the post search by tag name
 - 'sortBy' query parameter - this parameter defines which post propery the post results are ordered by. Accepted values are 'id' (default), 'reads', 'likes', 'popularity'
 - 'direction' query parameter - this parameter defines whether the post results are displayed in ascending or descending order by the sortBy value. Accepted values are 'desc'. Results will be ascending by default
-#### Ping route: http:
+#### Ping route:
 - Ping route: GET: http://localhost:5000/api/ping
 - This simple API route is called by the /ping extension  to the base url and returns status 200 {success : true} 
 ## Instructions to run
