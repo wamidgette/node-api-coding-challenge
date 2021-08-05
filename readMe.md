@@ -1,9 +1,9 @@
 # Coding Challenge - Node.js Application Hatchways API
 ## About
-- Purpose: Creating a backend JSON API to make calls to the Hatchways API provided. The user is able to send a request to this API with specific queries. The returned data will be arranged according to the instructions taken from these queries. Read on for some examples. 
+- Purpose: Creating a backend JSON API to make calls to the Hatchways API provided. The user is able to send a request to this API with specific queries. The returned data will be arranged according to the instructions taken from these queries. Read on for some example requests as well as instructions to run.
 - Solution uses Node.js and Express as well as additional modules axios, nodemon, and node-cache
 ### Routes
-- Base URL for this API after running: http://localhost:5000/api
+- Base URL for requests to this API: http://localhost:5000/api
 #### Posts Route
 - Posts route: GET: http://localhost:5000/api/posts returns a list of post objects by for tag name(s)
 - 'tags' query parameter - this parameter is required in URL as it defines the post search by tag name
